@@ -1,9 +1,25 @@
-.profile {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 .profiles {
   display: grid;
-  grid-template-columns: 30%, 30%, 30%;
-  margin-left: 50px;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 30%;
+  column-gap: 50px;
+  grid-auto-rows: 800px;
+}
+
+.wholepage {
+  display: grid;
+  width: 100%;
+  grid-template-rows: 30% 30%;
+  justify-items: center;
+  align-items: center;
+}
+
+.ship {
+  display: grid;
+  width: 100%;
+  justify-items: center;
+  align-items: center;
 }
