@@ -63,7 +63,7 @@ body {
     font-size: 20px;
 }
 
-.backhome:hover {
+.backhome:hover, .apptitle:hover {
     color: rgb(146, 198, 246);
 }
 
@@ -97,14 +97,37 @@ body {
     grid-template-columns: repeat(3, 20%);
     grid-template-rows: 20px, 200px, 5px;
     margin: 0px;
+    background-color: #fafafa;
     width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
 .name {
     text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.apptitle {
+    margin-top: 15px;
 }
 
 .img {
     align-self: center;
+}
+
+.contact {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}
+
+.contactus {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.contactinfo {
+    text-align: center;
 }
